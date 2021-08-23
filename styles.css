@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:blueviolet;
+}
+
+.main-container{    
+    width: 72rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 10rem 0;
+    background: #fafbff; 
+    overflow: hidden;
+    border-radius: 10rem;
+    
+}
+
+h2{
+    font-size: 7rem;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;    
+}
+
+.div{
+    border: 1rem solid black;
+    border-radius: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+    margin: .1rem 0;
+}
+
+.a{
+    float: left;
+    clear: left;
+    margin-left: 30rem;
+    border-color: blue;
+}
+
+.b{
+    float: left;
+    clear: left;
+    margin-left: 25rem;
+    border-color: green;
+}
+
+.c{
+    float: left;
+    margin-left: .1rem;
+    border-color: red;
+
+}
+
+.d{
+    float: left;
+    clear: left;
+    margin-left: 20rem;
+    border-color: red;
+}
+.e{
+    float: left;
+    margin-left: .1rem;
+    border-color: blue;
+
+}
+
+.f{
+    float: left;
+    margin-left: .1rem;
+    border-color: green;
+
+}
+
+.a,.e h2{
+    color: blue;
+}
+
+.b,.f h2{
+    color: green;
+}
+
+.c,.d h2{
+    color: red;
+}
+
+
